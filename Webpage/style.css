@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+head,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+#nav-part1{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 5px;
+}
+#nav-part1 h3{
+    font-size: 17px;
+    border: 1px solid #000;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+#nav-part1 i{
+    font-size: 17px;
+    border: 1px solid #000;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#nav-part2 h1{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+button{
+    font-size: 17px;
+    padding: 7px 12px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    background-color: #fff;
+    cursor: pointer;
+}
+#btn2{
+background-color: orangered;
+border: none;
+color: #fff;
+}
+#main>h1{
+    font-size: 140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+img{
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+    border-radius: 20px;
+}
+#image1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#image2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#image3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#bottom-lefttext{
+    position: absolute;
+    bottom:3%;
+    left: 8%;
+    transform: translate(-50%,-50%);
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+#bottom-center i{
+    padding: 8px 15px 15px 15px;
+    border: 1px solid black;
+     position: absolute;
+left: 50%;
+bottom: -3%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    border-radius: 100%;
+}
+#bottom-right{
+     margin-top: 34%;
+     margin-left: 90%;
+     display: flex;
+     justify-content: space-between;
+     /* background-color: blue; */
+     width: 100px;
+}
+#bottom-right i{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+        font-size: 20px;
+        font-weight: 500;
+}
+.bottomRightText{
+    position: absolute;
+    bottom: 4%;
+    right: 2%;
+    font-size: 17px;
+    font-weight: 500;
+}
