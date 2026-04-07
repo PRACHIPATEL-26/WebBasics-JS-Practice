@@ -81,11 +81,11 @@ function startQuiz(){
 }
 function showQuestion(){
     answersDisabled=false;
-    const currentQuestion=quizQuestions[currentQuestionIndex]
+    const currentQuestion=quizQuestions[currentQuestionIndex];
 currentQuestionSpan.textContent=currentQuestionIndex+1;
 const progressPercent=(currentQuestionIndex/quizQuestions.length)*100;
 progressBar.style.width=progressPercent + "%"
-questionText.textContent=currentQuestion.question
+questionText.textContent=currentQuestion.question;
 
 answersContainer.innerHTML="";
 currentQuestion.answers.forEach(answer=>{
