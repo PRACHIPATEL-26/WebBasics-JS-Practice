@@ -101,3 +101,65 @@ head,body{
     border-radius: 50px;
     margin-right: 12px;
 }
+#work{
+    margin-top: 40px;
+    border-top: 2px solid #222;
+    width: 100%;
+    height:70vh;
+    display: flex;
+       padding: 50px 60px;
+}
+#work1{
+    width: 40%;
+    height: 100%;
+    border-right: 2px solid #222;
+    display: flex;
+   justify-content: space-between;
+   padding-right: 55px;
+}
+#work1 h3{
+    font-size: 30px;
+    font-weight: 600;
+      color: #222;
+}
+#work1 i{
+    font-size: 35px;
+      color: #222;
+    font-weight: 300;
+}
+#work2{
+    height: 100%;
+    padding:0 20px;
+  width: 60%;
+}
+.work2-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.work2-part:nth-child(1){
+    border-bottom: 2px solid #111;
+}
+.work2-part .elem{
+    width: 50%;
+    height: 100%;
+}
+.work2-part .elem:nth-child(1){
+    border-right: 2px solid #111;
+    padding-right: 20px;
+}
+.work2-part .elem:nth-child(2){
+    padding-left: 20px;
+}
+.work2-part .elem h4{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 600;
+      color: #222;
+}
+.work2-part .elem p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #877;
+}
