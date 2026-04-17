@@ -18,7 +18,7 @@ body,html{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 25px 55px;
+    padding: 30px 55px;
 }
 #nav-part1{
     width:50%;
@@ -28,7 +28,7 @@ body,html{
 }
 #nav-part1 h2,h3{
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 500;
 }
 #nav-part2{
     width: 32%;
@@ -38,22 +38,22 @@ body,html{
 }
 #nav-part2 h4{
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 500;
 }
 #content{
     width: 100%;
     margin-top: 100px;
-   padding: 25px 55px;
+   padding: 30px 55px;
 }
 #content h2{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 400;
 }
 #content h1{
     font-size: 120px;
     letter-spacing: -7px;
     font-weight: 500;
-    line-height: 120px;
+    line-height: 125px;
     word-spacing: 5px;
     margin-top: 25px;
 }
@@ -77,4 +77,55 @@ body,html{
     width: 100px;
     height: 2px;
     background-color: #222;
+}
+#projects{
+       padding: 25px 55px;
+       display: flex;
+    justify-content: space-between;
+       align-items: center;
+       gap: 50px;
+}
+.elem{
+    width: 50%;
+}
+ .elem-img{
+    height: 520px;
+    width: 100%;
+    border-radius: 20px;
+       background-size: cover;
+    background-position: center;
+}
+#img1{
+    background-image: url("https://img.freepik.com/premium-vector/paper-art-yellow-diamond-vector-illustration_118339-4709.jpg?semt=ais_hybrid&w=740&q=80");
+}
+#img2{
+    background-image: url("https://weandthecolor.com/wp-content/uploads/2019/11/Tablet-banking-app.png");
+}
+#bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 11px;
+}
+#btm-left h2{
+font-size: 30px;
+font-weight: 500;
+}
+#btm-left h4{
+font-size: 16px;
+font-weight: 500;
+color: #8a8a8a;
+}
+#bottom i{
+font-size: 22px;
+font-weight: 400;
+border: 2px solid #111;
+padding: 10px 20px;
+border-radius: 50px;
+}
+#bottom i:hover{
+    cursor: pointer;
+    background-color: #111;
+    color: #fff;
 }
