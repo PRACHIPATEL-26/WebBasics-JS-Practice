@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+}
+
+#nav-left {
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 20px;
+}
+
+#logo img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+}
+
+#pageBtns {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
+#pageBtns p {
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#nav-center {
+    width: 60%;
+}
+
+#search-bar {
+    display: flex;
+    align-items: center;
+    background-color: rgba(10, 10, 10, 0.071);
+    border-radius: 40px;
+    height: 35px;
+    position: relative;
+    overflow: hidden;
+    padding: 15px;
+}
+
+#search-bar input {
+    margin-left: 20px;
+    width: 95%;
+    border: none;
+    background-color: #b6b5b500;
+    position: absolute;
+    outline: none;
+    padding: 0px 5px;
+}
+
+#search-bar input::placeholder {
+    font-size: 15px;
+    text-align: left;
+    color: black;
+    padding: 5px;
+}
+
+#nav-right {
+    width: 12%;
+}
+
+#icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#icons i {
+    font-size: 25px;
+    color: rgb(109, 109, 109);
+    cursor: pointer;
+}
