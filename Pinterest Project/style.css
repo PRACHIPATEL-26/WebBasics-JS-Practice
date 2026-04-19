@@ -95,3 +95,26 @@ header {
     color: rgb(109, 109, 109);
     cursor: pointer;
 }
+
+#contentContainer {
+    /* background-color: aquamarine; */
+    padding: 10px 30px;
+    column-count: 4;
+    column-gap: 15px;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    break-inside: avoid;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
