@@ -63,33 +63,127 @@ html,body{
 #icons i:hover{
     background-color:  rgb(43, 53, 84);
     color: rgba(232, 171, 17, 0.708);
+    cursor: pointer;
 }
 #productContainer{
     width: 100%;
-    height: 272px;
-    background-color: aquamarine;
-    padding: 10px 20px;
+    height: 360px;
+    padding: 10px;
     display: flex;
     align-content: center;
     gap: 30px;
+    overflow-x: auto;
+}
+::-webkit-scrollbar{
+    display: none;
 }
 .product{
-    background-color: red;
-    height: 250px;
-    width: 200px;
+    width: 100%;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0,0.3);
+    height: 320px;
+    max-width: 230px;
     display: flex;
     flex-direction: column;
 justify-content: space-between;
     padding: 10px;
+    border-radius: 8px;
+    flex-shrink: 0;
 }
 .imgContainer{
     height: 250px;
     width: 100%;
     background-color: rebeccapurple;
     border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.imgContainer img{
+object-fit: cover;
+height: 100%;
+width: 100%;
 }
 .subContainer{
 display: flex;
 align-items: center;
 justify-content: space-between;
+margin-top: 10px;
+}
+.titleName{
+font-size: 20px;
+ font-weight: 600;
+ margin-bottom: 5px;
+}
+.price{
+ font-size: 18px;
+  font-weight: 600;   
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.headline{
+    font-size: 17px;
+    color: rgb(149, 149, 149);
+    font-weight: 500;
+}
+.iconContainer i{
+    font-size: 18px;
+    background-color: rgb(43, 53, 84);
+    color: rgba(232, 171, 17, 0.708);
+    padding: 8px;
+    border-radius: 20px;
+    cursor: pointer;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0,0.3);
+}
+#popularTitle{
+    font-size: 25px;
+    padding: 10px;
+    font-weight: 600;
+}
+#popularContainer{
+    height: 100%;
+    margin: 10px;
+    min-height: 120px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+overflow-x: auto;
+flex-shrink: 0;
+}
+.popularMain{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0,0.3);
+    height: 100px;
+    width: 230px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    border-radius: 8px;
+    gap: 20px;
+}
+.popularImage{
+    height: 80px;
+    width: 80px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.popularImage img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.popularProuctTitle{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.popularProductHeadline{
+    font-size: 17px;
+    margin-bottom: 5px;
+    color: rgb(149, 149, 149);
+}
+.popularProductPrice{
+    font-size: 18px;
 }
